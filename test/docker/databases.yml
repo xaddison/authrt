@@ -14,23 +14,23 @@ services:
     ports:
       - "27017:27017"
 
-  mssql:
-    extends:
-      file: databases/mssql.yml
-      service: mssql
-    ports:
-      - "1433:1433"
+  #mssql:
+  #  extends:
+  #    file: databases/mssql.yml
+  #    service: mssql
+  #  ports:
+  #    - "1433:1433"
 
-  mysql:
-    extends:
-      file: databases/mysql.yml
-      service: mysql
-    ports:
-      - "3306:3306"
+  #mysql:
+  # extends:
+  #   file: databases/mysql.yml
+  #   service: mysql
+  # ports:
+  #   - "3306:3306"
 
-  postgres:
-    extends:
-      file: databases/postgres.yml
-      service: postgres
-    ports:
-      - "5432:5432"
+  #postgres:
+  # extends:
+  #   file: databases/postgres.yml
+  #   service: postgres
+  # ports:
+  #   - "5432:5432"
